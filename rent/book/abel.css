@@ -1,0 +1,214 @@
+
+.sidebar_widget {
+    border: 1px solid #e6e6e6;
+    margin: 0 auto 40px;
+    padding: 20px 16px 30px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.form-control:hover, .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+textarea.form-control {
+    height: auto;
+}
+.form-control {
+    background: #eeeeee none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #888888;
+    font-size: 15px;
+    height: 46px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea {
+    overflow: auto;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px !important;
+    overflow-x: hidden;
+    color: #555555;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.btn.btn-xs {
+    font-size: 12px;
+    padding: 0px 25px;
+}
+
+.btn, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .recent-tab .nav.nav-tabs li.active a, .fun-facts-m, .featured-icon, .owl-pagination .owl-page.active, #testimonial-slider .owl-pagination .owl-page.active, .social-follow.footer-social a:hover, .back-top a, .team_more_info ul li a:hover, .tag_list ul li a:hover, .pagination ul li.current, .pagination ul li:hover, .btn.outline:hover, .btn.outline:focus, .share_article ul li:hover, .nav-tabs > li a:hover, .nav-tabs > li a:focus, .label-icon, .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .label_icon, .navbar-nav > li > .dropdown-menu, .add_compare .checkbox, .search_other, .vs, .td_divider, .search_other_inventory, #other_info, .main_bg, .slider .slider-handle, .slider .slider-selection, .primary-bg {
+    background: #f76d2b none repeat scroll 0 0;
+    fill: #f76d2b;
+}
+.btn, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .recent-tab .nav.nav-tabs li.active a, .fun-facts-m, .featured-icon, .owl-pagination .owl-page.active, #testimonial-slider .owl-pagination .owl-page.active, .social-follow.footer-social a:hover, .back-top a, .team_more_info ul li a:hover, .tag_list ul li a:hover, .pagination ul li.current, .pagination ul li:hover, .btn.outline:hover, .btn.outline:focus, .share_article ul li:hover, .nav-tabs > li a:hover, .nav-tabs > li a:focus, .label-icon, .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .label_icon, .navbar-nav > li > .dropdown-menu, .add_compare .checkbox, .search_other, .vs, .td_divider, .search_other_inventory, #other_info, .main_bg, .slider .slider-handle, .slider .slider-selection {
+    background: #fa2837 none repeat scroll 0 0;
+    fill: #fa2837;
+}
+.btn {
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: auto;
+    padding: 7px 36px;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn-group-xs>.btn, .btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+a, .btn-link, .car-title-m h6 a:hover, .featured-car-content > h6 a:hover, .footer-top ul li a:hover, .get-intouch a:hover, .blog-content h5 a:hover, .blog-info-box li a:hover, .control-label span, .angle_arrow i, .contact_detail li a:hover, .team_more_info p a:hover, .error_text_m h2, .search_btn, .popular_post_title a:hover, .categories_list ul li a:hover, .categories_list ul li a:hover:after, .article_meta ul li a:hover, .articale_header h2 a:hover, .btn.outline, .share_article ul li, .contact-info a:hover, .social-follow a:hover, .radio input[type=radio]:checked + label:before, .checkbox input[type=checkbox]:checked + label:before, .product-listing-content h5 a:hover, .pricing_info .price, .text-primary, .footer_widget ul li a:hover, .header_search button:hover, .header_widgets a:hover, .navbar-default .navbar-nav > li.active a, .navbar-default .navbar-nav > li:focus a, .navbar-default .navbar-nav > li:hover a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover, .my_vehicles_list ul.vehicle_listing li a:hover, .dealer_contact_info a:hover, .widget_heading i, .dealers_listing .dealer_info h5 a:hover, .main_features ul li p, .listing_detail_head .price_info p, .listing_other_info button:hover, .compare_info table td i, .compare_info table th i, #accessories i, .price, .inventory_info_list ul li i, .services_info h4 a:hover, .about_info .icon_box, .header_style2 .navbar-nav > li > .dropdown-menu a:hover, .header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover, .header_style2 .dropdown-menu > .active > a, .header_style2 .dropdown-menu > .active > a:focus, .header_style2 .dropdown-menu > .active > a:hover, .header_style2 .dropdown-menu > li > a:focus, .header_style2 .dropdown-menu > li > a:hover, .blog-info-box .share_article:hover ul li a:hover {
+    color: #f76d2b;
+    fill: #f76d2b;
+}
+a, .btn-link, .car-title-m h6 a:hover, .featured-car-content > h6 a:hover, .footer-top ul li a:hover, .get-intouch a:hover, .blog-content h5 a:hover, .blog-info-box li a:hover, .control-label span, .angle_arrow i, .contact_detail li a:hover, .team_more_info p a:hover, .error_text_m h2, .search_btn, .popular_post_title a:hover, .categories_list ul li a:hover, .categories_list ul li a:hover:after, .article_meta ul li a:hover, .articale_header h2 a:hover, .btn.outline, .share_article ul li, .contact-info a:hover, .social-follow a:hover, .radio input[type=radio]:checked + label:before, .checkbox input[type=checkbox]:checked + label:before, .product-listing-content h5 a:hover, .pricing_info .price, .text-primary, .footer_widget ul li a:hover, .header_search button:hover, .header_widgets a:hover, .navbar-default .navbar-nav > li.active a, .navbar-default .navbar-nav > li:focus a, .navbar-default .navbar-nav > li:hover a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover, .my_vehicles_list ul.vehicle_listing li a:hover, .dealer_contact_info a:hover, .widget_heading i, .dealers_listing .dealer_info h5 a:hover, .main_features ul li p, .listing_detail_head .price_info p, .listing_other_info button:hover, .compare_info table td i, .compare_info table th i, #accessories i, .price, .inventory_info_list ul li i, .services_info h4 a:hover, .about_info .icon_box, .header_style2 .navbar-nav > li > .dropdown-menu a:hover, .header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover, .header_style2 .dropdown-menu > .active > a, .header_style2 .dropdown-menu > .active > a:focus, .header_style2 .dropdown-menu > .active > a:hover, .header_style2 .dropdown-menu > li > a:focus, .header_style2 .dropdown-menu > li > a:hover {
+    color: #fa2837;
+    fill: #fa2837;
+}
+
+
+

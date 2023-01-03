@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="Style.css" type="text/css">
+  <link rel="stylesheet" href="all.css">
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>መኪና መሽጫ</title>
+
+
+
+
+  <script language="javascript" type="text/javascript">
+    function dynamicdropdown(listindex)
+    {
+        switch (listindex)
+        {
+        case "manual" :
+            document.getElementById("status").options[0]=new Option("Select status","");
+            document.getElementById("status").options[1]=new Option("OPEN","open");
+            document.getElementById("status").options[2]=new Option("DELIVERED","delivered");
+           
+            break;
+        case "online" :
+            document.getElementById("status").options[0]=new Option("Select status","");
+            document.getElementById("status").options[1]=new Option("OPEN","open");
+            document.getElementById("status").options[2]=new Option("DELIVERED","delivered");
+            document.getElementById("status").options[3]=new Option("SHIPPED","shipped");
+           
+            break;
+        }
+        return true;
+    }
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Ewenta Vehicle <span style="color: gold;">&</span> Machinery</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                  <li class="nav-link">
+                    <a href="../Index.html">Buy(መግዢአ)</a>
+                </li>
+                <li class="nav-link">
+                    <a href="../car sell/index.html">Sell(መሸጭ)</a>
+                </li>
+                <li class="nav-link">
+                    <a href="../ማከራየው መኪና አለኝ/index.html">Leasing(ማከራያ)</a>
+                </li>
+                <li class="nav-link">
+                    <a href="../RENT-A-CAR-master/vehicle.html">Rent(መከራያ)</a>
+                </li>
+                <li class="nav-link">
+                    <a href="../contact us.html">Contact Us(ሊያገኙን ከፈለጉ)</a>
+                </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+
+  <!--Landing Page HTML-->
+  <main class="container-fluid m-0 p-0">
+ 
+    
+    <!--LANDING PAGE: include a quotation request form-->
+    <!--Display for sm & above-->
+    <div id="home" class="frame b-gray white d-sm-block d-none p-0 mt-4">
+      <div class="row picture_main justify-content-center">
+        <div class="col-lg-8 col-md-7 "></div>
+        <!--    Form for quotation entry-->
+        <div class="col-lg-3 col-md-4 
+                               pt-lg-5 pt-md-4 
+                               mt-4 ">
+          <form action="sell.php" method="post" enctype="multipart/form-data"
+           class="form-group b-p-gray 
+                                    py-lg-5 py-md-3 
+                                    px-lg-3 px-md-2 " style="margin-left: 10px;" >
+            <h5 class="form-title text-center mb-3">ለመሸጥ አስፈላጊ መረጃዎቹን <span class="gold">ይሙሉ</span></h5>
+
+
+           
+            <input class="input form-control" type="text" name="name" placeholder="Enter your name(ስሞትን ያስገቡ)" />
+            
+            <div>
+      
+            <select name="source" class="input form-control" style="border-radius: 45px; box-shadow: 10px 5px 5px #6db9ef;" id="source"
+            onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+
+              <option name="tool" value="" selected>Type of Tools?(የእቃውን አይነት ይምረጡ?)</option>
+              <option name="tool" value="manual" >dumptruck(ገልባጭ)</option>
+              <option name="tool" value="online">Excavator(ኤክስካቫተር)</option>
+              <option name="tool" value="">loader(ሎደር)</option>
+              <option name="tool" value="">crane(ክሬን)</option>
+              <option name="tool" value="">truck mixer(ትራክ ሚክሰር)</option>
+              <option name="tool" value="">roller(ሮለር)</option>
+              <option name="tool" value="">other(ሌላ)</option>
+            </select>
+            </div>
+
+
+            
+            <div class="sub_category_div" id="sub_category_div">
+              <script type="text/javascript" language="JavaScript">
+              document.write('<select name="status" id="status" class="input form-control" style="border-radius: 45px; box-shadow: 10px 5px 5px #6db9ef;" ><option value="">Brand Type?(የእቃው ብራንድ?)</option></select>')
+              </script>
+              
+              <noscript>
+              <select id="status" name="status">
+                  <option value="open">dumptruck(ገልባጭ)</option>
+                  <option value="delivered">Excavator(ኤክስካቫተር)</option>
+              </select>
+              </noscript>
+          </div>
+
+
+           
+
+            <input class="input form-control" type="text" name="year" placeholder="Production Year(መች እንደተመረተ)" />
+            <input class="input form-control" type="text" name="location" placeholder="Location(የት ቦታ እንደሚገኝ)" />
+            <input class="input form-control" type="text" name="level" placeholder="Level of availability(የሚገኝበት ደረጃ)" />
+            <input class="input form-control" type="text" name="hours" placeholder="How many hours drive(ሰንት ሰአት እንደተነዳ)" />
+            <input class="input form-control" type="text" name="tires" placeholder="The condition of the tires(ጎማዎቹ ያሉበት ሁኔታ)" />
+            <input class="input form-control" type="text" name="weight" placeholder="Overall Weight(አጠቃላይ ክብደቱ)" />
+            <input class="input form-control" type="text" name="sales" placeholder="Sales number(የሽያጭ ቁጥር)" />
+            <input class="input form-control" type="text" name="price" placeholder="Price not including Vat(ዋጋው ቫትን ሳይጨምር)" />
+            <input class="input form-control" type="text" name="serial" placeholder="Serial Number(ቻንሲ ቁጥሩ/ሴሪያል ቁጥር)" />
+            <input class="input form-control" type="text" name="bucket" placeholder="Bucket capacity in m3(ባኬት ካፓሲቲ ሜ3)" />
+            <input class="input form-control" type="text" name="color" placeholder="Color Type(የቀለሙ አይነት)" />
+            <input class="input form-control" type="text" name="area" placeholder="Width and Height in meter(እርዝመት ወርድ እና ቁመቱ በሜትር)" />
+            <input class="input form-control" type="number" name="number" placeholder=" Mobile(ሰልክ ቍጥር)" />
+           
+            <br>
+
+
+     
+            <label for="files" class="btn" style=" line-height: 20px; border-radius: 2rem; color: rgb(255, 217, 0); width: 13px; color: ivory;">
+                ከቀረጥ ነፃ ለመሸጥ መሟላት ያለበት <br> <span style="background-color: black ; background-color: indigo;"> 
+                  የብቃት ማረጋገጫ ቦሎ,ጂክላራሲዮን,ሊብሬ,የገቢዎች ክሊራንስ የቀረጥ ነፃ ደብዳቤ እና ኢንቨሰትመንት ፍቃድ ያስገቡ </span> </label>
+            <input class="input form-control" id="files" style="visibility:hidden;" type="file" name="image">
+        
+
+           
+            <div class="text-center mt-3" style="margin-top: -15px;"> <button type="submit" name="submit" value="submit" id="submit">Submit(አስገባ)</button></div>
+          </form>
+        </div>
+      </div>
+      <!--    Company Tagline-->
+      
+
+
+    
+
+
+
+
+
+
+
+    
+
+  </main>
+  <!--End of Landing Page HTML-->
+  <!--Sell Car Page HTML-->
+  <section id="sellcar" class="container-fluid frame">
+    <!--Header for Selling car-->
+    <h2 class="text-center white b-gray w-100"><span class="gold ">መሸጥ  </span>  ሚፈልጉትን መኪና በ 3 መንገድ ይሽጡ  </h2>
+    <!--Step by step instruction to inform car owner our 3-step process -->
+    <div class="row white justify-content-center py-0">
+      <div class="rectangle b-l-gray">
+        <div class="button-sell badge badge-warning white">በ ዌብ-ሳይት (WEBSITE)</div>
+        <p class="w-80"><u><a href="">መረጃዎን ለማሰገባት እዚጋ ይንኩ</a></u></p>
+        <p class="mx-2 text-left d-md-block d-none">መረጃዎን ያስገቡ.<br> በፍጥነት ገዢ እናገናኞታለን.</p>
+      </div>
+      <div class="rectangle b-l-gray">
+        <div class="button-sell badge badge-warning white">በ ቴሌ-ግራም (TELEGRAM)</div>
+        <p class="w-80"><u><a href="">የቴሌ-ግራም CHANNEL ለመቀላቀል እዚጋ ይንኩ</a></u></p>
+        <p class="mx-2 text-left d-md-block d-none">መረጃዎን በቴሌ-ግራም ከላኩልን<br> በፍጥነት ገዢ እናገናኞታለን</p>
+      </div>
+      <div class="rectangle b-l-gray ">
+        <div class="button-sell badge badge-warning white">በ አካል (IN PERSON)</div>
+        <p class="w-80"><u>0966337163 (0930104785) በዚ ሰልክ ይደውሉልን</u></p>
+        <p class="mx-2 text-left d-md-block d-none"> <br>ያግኙን በፍጥነት ገዢ እናገናኞታለን </p>
+      </div>
+    </div>
+  </section>
+  <!--Footer Section-->
+
+
+
+ 
+<!-- Jquery Library file -->
+<script src="Jquery3.4.1.min.js"></script>
+
+
+
+<!-- Custom Javascript file -->
+<script src="main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

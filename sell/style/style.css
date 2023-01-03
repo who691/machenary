@@ -1,0 +1,300 @@
+
+
+
+@media screen and (max-width:1440px) {
+    h1 {
+        font-size: 4.3em;
+    }
+    h2 {
+        font-size: 3.3em;
+    }
+    h3 {
+        font-size: 2.2em;
+    }
+    .shout {
+        font-size: 2.3em;
+        font-family: cursive;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    /*Landing Page styling*/
+    .frame {
+        width: 100%;
+        height: 50rem;
+    }
+    .picture_main {
+        background-image: url("../image/car-snow.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 65% 70%;
+        width: 100%;
+        height: 65%;
+        margin: 1% 0 0;
+    }
+    /*quote form styling*/
+    .quote-frame {
+        width: 30%;
+        height: 100%;
+    }
+    .quote {
+        height: 100%;
+        width: 100%;
+        /*font-size:0.8em;*/
+    }
+    .form-title {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    .write-up-box {
+        width: 70%;
+        margin: 10% 15% auto;
+    }
+    .write-up {
+        font-size: 1.5em;
+        padding: 5%;
+    }
+    .listing th,
+    .listing td {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    h2 {
+        font-size: 2.3em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+    .picture_main {
+        background-position: 68% 70%;
+        height: 65%;
+    }
+    .write-up-box {
+        width: 80%;
+        margin: 5% 10% auto;
+    }
+    .write-up {
+        font-size: 1.3em;
+        padding: 5%;
+    }
+    .rectangle {
+        width: 30%;
+        margin: 1%;
+    }
+    #buycar {
+        width: 100%;
+        height: 28rem;
+    }
+    .buycar-frame {
+        background-image: url("../image/suv-back.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40% 50%;
+        width: 100%;
+        height: 100%;
+        margin: 1% 0 0;
+    }
+    .header-buycar1 {
+        padding: 8% 0 0 5%;
+        margin: 0;
+    }
+    .search-box {
+        width: 70%;
+        height: 45px;
+        text-align: center;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .circle {
+        width: 10.5rem;
+        height: 10.5rem;
+        border-radius: 50%;
+    }
+    .listing th,
+    .listing td {
+        font-size: 0.7em;
+    }
+    .car-image {
+        height: 55%;
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+    .shout {
+        font-size: 2em;
+        font-family: cursive;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .picture_main {
+        background-image: url("../image/car-snow.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 68% 70%;
+        width: 100%;
+        height: 28rem;
+        margin: 1% 0 0;
+    }
+    .frame {
+        width: 100%;
+        height: 40rem;
+    }
+    .write-up-box {
+        width: 90%;
+        margin: 5%;
+    }
+    .write-up {
+        font-size: 1.2em;
+    }
+    .rectangle {
+        background-color: rgba(50, 50, 50, 1);
+        color: white;
+    }
+    .header-buycar1 {
+        padding: 8% 0 0 5%;
+        margin: 0;
+    }
+    .search-box {
+        width: 98%;
+        height: 45px;
+        text-align: center;
+        margin: 10% 1% 0;
+
+    }
+    .listing th,
+    .listing td {
+        font-size: 0.5em;
+    }
+    .car-image {
+        height: 38%;
+        margin: 3%;
+    }
+    /*Background for social media tags*/
+    .fa {
+        padding: 10px;
+        font-size: 60px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    h4 {
+        font-size: 0.8em;
+    }
+
+    .shout {
+        font-size: 1.3em;
+        font-family: cursive;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .form-title {
+        font-size: 1.4em;
+    }
+    .frame {
+        width: 100%;
+        height: 40rem;
+    }
+    .picture_main {
+        background-image: url("../image/car-snow.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 65% 70%;
+        width: 100%;
+        height: 12.5rem;
+    }
+    .write-up-box {
+        width: 90%;
+        margin: 35% 5% 0;
+    }
+    .write-up {
+        font-size: 1em;
+        padding: 2%;
+    }
+    #sellcar {
+        height: 20rem;
+        padding-top: 10%;
+        margin: 0;
+    }
+    .rectangle {
+        width: 90%;
+        min-height: 0;
+        font-size: 0.8em;
+        text-align: left;
+        padding: 2% 5%;
+        margin-top: 1%;
+        background-color: rgba(50, 50, 50, 1);
+        color: white;
+    }
+    .rectangle p {
+        margin: 0;
+    }
+    .button-sell {
+        padding: 1% 2%;
+        margin-bottom: 2px;
+    }
+    #buycar {
+        width: 100%;
+        height: 23rem;
+    }
+    .buycar-frame {
+        background-image: url("../image/suv-back.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 80% 50%;
+        width: 100%;
+        height: 30%;
+        margin: 1% 0 0;
+    }
+    .header-buycar1 {
+        padding: 1% 0 0 5%;
+        margin: 0;
+    }
+    .search-box {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        margin: 0;
+
+    }
+    #contact-us {
+        padding: 3% 0%;
+    }
+    #contact-text-frame {
+        padding: 2%;
+    }
+    .testimonial p {
+        font-size: 0.8em;
+    }
+    .circle {
+        width: 8.5rem;
+        height: 8.5rem;
+        border-radius: 50%;
+    }
+}
